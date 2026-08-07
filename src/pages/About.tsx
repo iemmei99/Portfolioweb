@@ -128,7 +128,7 @@ const SKILL_GROUPS = [
   }
 ];
 
-export default function AboutPage() {
+export default function About() {
   const [activeSection, setActiveSection] = useState('about');
 
   useEffect(() => {
@@ -223,7 +223,7 @@ export default function AboutPage() {
             <a href="tel:+84396542662" className="flex items-center gap-1.5 px-4 py-2 rounded-full bg-white/50 dark:bg-black/50 backdrop-blur-md border border-gray-200 dark:border-gray-800 shadow-sm hover:shadow-md transition-all text-xs font-semibold text-[#111111] dark:text-white hover:text-blue-500 dark:hover:text-blue-400">
               <Phone className="w-3.5 h-3.5" /> +84 39 654 2662
             </a>
-            <a href="#" className="flex items-center gap-1.5 px-4 py-2 rounded-full bg-white/50 dark:bg-black/50 backdrop-blur-md border border-gray-200 dark:border-gray-800 shadow-sm hover:shadow-md transition-all text-xs font-semibold text-[#111111] dark:text-white hover:text-blue-500 dark:hover:text-blue-400">
+            <a href="https://www.linkedin.com/in/sylvia-van-thao-98a084285/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 px-4 py-2 rounded-full bg-white/50 dark:bg-black/50 backdrop-blur-md border border-gray-200 dark:border-gray-800 shadow-sm hover:shadow-md transition-all text-xs font-semibold text-[#111111] dark:text-white hover:text-blue-500 dark:hover:text-blue-400">
               <Linkedin className="w-3.5 h-3.5" /> LinkedIn
             </a>
             <a href="#" className="flex items-center gap-1.5 px-4 py-2 rounded-full bg-white/50 dark:bg-black/50 backdrop-blur-md border border-gray-200 dark:border-gray-800 shadow-sm hover:shadow-md transition-all text-xs font-semibold text-[#111111] dark:text-white hover:text-blue-500 dark:hover:text-blue-400">
