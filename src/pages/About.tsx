@@ -17,6 +17,7 @@ const EXPERIENCES = [
   {
     company: 'FPT SOFTWARE',
     role: 'Business Analyst Trainee',
+    project: '(Assistant Agent for PM project)',
     time: '05/2026 - Present',
     description: [
       '<strong>Requirements Analysis:</strong> Collected and clarified requirements with the PM and stakeholders; defined scope, business rules, and acceptance criteria for the feature.',
@@ -269,6 +270,12 @@ export default function About() {
                 <div className="text-blue-500 dark:text-blue-400 font-bold text-sm mb-3">
                   {exp.role}
                 </div>
+                
+                {exp.project && (
+                  <div className="text-gray-700 dark:text-gray-300 font-normal text-sm mb-3">
+                    {exp.project}
+                  </div>
+                )}
                 
                 <ul className="list-disc list-outside ml-4 text-gray-700 dark:text-gray-300 text-sm space-y-2 leading-relaxed font-normal">
                   {exp.description.map((item, i) => (
