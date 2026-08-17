@@ -18,7 +18,7 @@ const EXPERIENCES = [
     company: 'FPT SOFTWARE',
     role: 'Business Analyst Trainee',
     project: '(Assistant Agent for PM project)',
-    time: '05/2026 - Present',
+    time: '03/2026 - Present',
     description: [
       '<strong>Requirements Analysis:</strong> Collected and clarified requirements with the PM and stakeholders; defined scope, business rules, and acceptance criteria for the feature.',
       '<strong>Agent Logic Design:</strong> Analyzed factors affecting project progress and defined risk evaluation principles, risk classification rules, conversation flow, and Agent response behavior.',
@@ -32,7 +32,7 @@ const EXPERIENCES = [
   {
     company: 'WOODCHILL AWPC JSC',
     role: 'E-commerce Executive - Etsy Platform',
-    time: '09/2025 - 04/2026',
+    time: '04/2025 - 04/2026',
     description: [
       '<strong>Business Operations Analysis:</strong> Developed a strong understanding of end-to-end e-commerce operations and continuously monitored Etsy platform policies, processes, and market changes.',
       '<strong>Root Cause Analysis:</strong> Analyzed the causes of order delays across production, fulfillment, shipping, customer service, and after-sales processes; contributed to workflow improvements and cross-functional coordination.',
