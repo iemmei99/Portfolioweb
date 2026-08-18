@@ -32,7 +32,7 @@ const EXPERIENCES = [
   {
     company: 'WOODCHILL AWPC JSC',
     role: 'E-commerce Executive - Etsy Platform',
-    time: '04/2025 - 04/2026',
+    time: '04/2025 - 03/2026',
     description: [
       '<strong>Business Operations Analysis:</strong> Developed a strong understanding of end-to-end e-commerce operations and continuously monitored Etsy platform policies, processes, and market changes.',
       '<strong>Root Cause Analysis:</strong> Analyzed the causes of order delays across production, fulfillment, shipping, customer service, and after-sales processes; contributed to workflow improvements and cross-functional coordination.',
